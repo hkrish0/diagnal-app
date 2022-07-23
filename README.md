@@ -13,9 +13,15 @@ Framework Used - Nest JS
 
 ## Running the app
 
-AWS Lambda Endpoint
+AWS Lambda Endpoint for POST Request
 
 https://7fltjkbmt7.execute-api.us-east-1.amazonaws.com/dev/scrape
 
+POST application/json { "url:" "http://www.example.com" }
+
+## Source code Details
+
 Created Separate module Scrape inside the nestjs app for the
 functionality.Implemented caching through Nestjs in-cache memory mechanism.
+
+Module Location - /src/scrape
